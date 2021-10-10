@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/style/style.css" />
+
+    <title>Responsive Admin Dashboard | Redesign</title>
+  </head>
+  <body>
+    <div class="cotaniner">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+              <span class="title">Apple</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="home-outline"></ion-icon
+              ></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="person-outline"></ion-icon
+              ></span>
+              <span class="title">Customers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="chatbubble-outline"></ion-icon
+              ></span>
+              <span class="title">Message</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="help-outline"></ion-icon
+              ></span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="settings-outline"></ion-icon
+              ></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="lock-closed-outline"></ion-icon
+              ></span>
+              <span class="title">Password</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="log-out-outline"></ion-icon
+              ></span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Main -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <!-- Search -->
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search Here" />
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+          </div>
+          <div class="user">
+            <img src="assets/user.png" alt="user" />
+          </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">1,504</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">80</div>
+              <div class="cardName">Sales</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">99</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">$16,994</div>
+              <div class="cardName">Earnings</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="cash-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data list -->
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Recent Orders</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Price</td>
+                  <td>Payment</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rolex</td>
+                  <td>$59999</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Richard Mille</td>
+                  <td>$12999</td>
+                  <td>Paid</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Apple Watch</td>
+                  <td>$1000</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Airpods Gen 2</td>
+                  <td>$999</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>iPhone 13 Pro Max</td>
+                  <td>$1899</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+                <tr>
+                  <td>ASUS ROG</td>
+                  <td>$1879</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>HP Omen</td>
+                  <td>$2199</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+                <tr>
+                  <td>AOC G204C</td>
+                  <td>$379</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Rexus Daxa Air II Wireless Pro</td>
+                  <td>$89</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Keychron K6</td>
+                  <td>$129</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- New Customers -->
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Recent Customers</h2>
+            </div>
+            <table>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <div class="imgBx">
+                    <img src="assets/cust.jpg" alt="cust" />
+                  </div>
+                </td>
+                <td>
+                  <h4>Maeve Wiley<br /><span>United Kingdom</span></h4>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
+l
